@@ -139,5 +139,9 @@ function checkAuthenticate()
         exit;
     }
 
-    // End 
-}
+
+} 
+
+function printfailure(){
+    echo json_encode(array("status" => "failure"));
+  }
